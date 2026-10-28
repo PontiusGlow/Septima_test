@@ -1,0 +1,67 @@
+{
+ "name": "Septima ТЕСТ",
+ "short_name": "Septima ТЕСТ",
+ "description": "Планер на неделю, работает без интернета",
+ "lang": "ru",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#EDF0F3",
+ "theme_color": "#EDF0F3",
+ "shortcuts": [
+  {
+   "name": "Новая задача",
+   "short_name": "Новая",
+   "url": "./?new=1",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "Сегодня",
+   "url": "./?today=1",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  }
+ ],
+ "share_target": {
+  "action": "./",
+  "method": "GET",
+  "params": {
+   "title": "title",
+   "text": "text",
+   "url": "url"
+  }
+ },
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  },
+  {
+   "src": "icon-180.png",
+   "sizes": "180x180",
+   "type": "image/png"
+  }
+ ]
+}
