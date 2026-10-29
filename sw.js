@@ -1,4 +1,4 @@
-const V="septimatest-1.5.0.0-2026.10.29-132336",FONTS="septimatest-fonts";
+const V="septimatest-1.5.1.0-2026.10.29-163637",FONTS="septimatest-fonts";
 const SHELL=["./","./index.html","./manifest.webmanifest","./icon-180.png","./icon-192.png","./icon-512.png","./icon-maskable-512.png"];
 self.addEventListener("install",e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(SHELL)))});
 self.addEventListener("message",e=>{if(e.data==="skip")self.skipWaiting()});
